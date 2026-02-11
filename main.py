@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from routes.createpost import router as createpost
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
+import os
 
 
 
@@ -10,7 +11,8 @@ from fastapi.responses import HTMLResponse
 
 
 
-app = FastAPI()
+
+app = FastAPI(title="Carousel Backend")
 
 app.add_middleware(
   CORSMiddleware,
@@ -28,16 +30,13 @@ templates = Jinja2Templates(directory="templates")
 
 app.include_router(createpost , prefix="/createpost")
 
-
-@app.get("/", response_class=HTMLResponse)
+@app.get("/")
 async def root():
-    return "<h1>Carousel Backend is Live ✅</h1>"
+    return {"status": "Backend is live!"}
 
-
-# Get Railway port or fallback to 8080
+# Railway port
 port = int(os.environ.get("PORT", 8080))
 
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=port)
-
