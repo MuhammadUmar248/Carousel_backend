@@ -17,4 +17,4 @@ python-jose[cryptography]
 email-validator
 langchain-google-genai
 html2image
-cloudinary
+cloudinary==1.38.0
