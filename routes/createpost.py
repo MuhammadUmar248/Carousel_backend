@@ -441,7 +441,7 @@ def safe_llm_invoke(prompt_chain, input_data):
         raise e
 
 
-@router.post("/respone",response_class=HTMLResponse)
+@router.post("/response",response_class=HTMLResponse)
 async def post_create(data:UploadPost) :
 
     #1st page genrate
