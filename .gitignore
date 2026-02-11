@@ -1,0 +1,15 @@
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.envvenv/
+
+# OS
+.DS_Store
+
+# Generated images
+gen_images/

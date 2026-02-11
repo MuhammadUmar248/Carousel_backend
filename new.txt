@@ -1,0 +1,31 @@
+LLM original respone 
+Slide 1:
+HEADING: Understanding the Algorithm: The Recipe
+CHUNK 1: Algorithms are precise, ordered sets of instructions.
+CHUNK 2: They act as a digital recipe for solving specific problems logically.
+CHUNK 3: Every task, from sorting data to running apps, requires an algorithm.
+CHUNK 4: These instructions must be broken down into simple steps.
+
+Slide 2:
+HEADING: The Central Processing Unit at Work
+CHUNK 1: The Central Processing Unit (CPU) is the machine’s primary execution unit.
+CHUNK 2: It fetches, decodes, and executes algorithm instructions rapidly.
+CHUNK 3: This instruction cycle operates millions of times every second.
+CHUNK 4: This process ensures every instruction is followed exactly.
+
+Slide 3:
+HEADING: How Computers Use Simple Logic
+CHUNK 1: All computer data relies on binary code (0s and 1s).
+CHUNK 2: Computers use logic gates to interpret and manipulate these values.
+CHUNK 3: These gates perform basic logical operations like AND, OR, and NOT.
+CHUNK 4: This fundamental logic enables all complex computation.
+
+Modify respone split:
+['Slide 1:\nHEADING: Understanding the Algorithm: The Recipe\nCHUNK 1: Algorithms are precise, ordered sets of instructions.\nCHUNK 2: They act as a digital recipe for solving specific problems logically.\nCHUNK 3: Every task, from sorting data to running apps, requires an algorithm.\nCHUNK 4: These instructions must be broken down into simple steps.', 'Slide 2:\nHEADING: The Central Processing Unit at Work\nCHUNK 1: The Central Processing Unit (CPU) is the machine’s primary execution unit.\nCHUNK 2: It fetches, decodes, and executes algorithm instructions rapidly.\nCHUNK 3: This instruction cycle operates millions of times every second.\nCHUNK 4: This process ensures every instruction is followed exactly.', 'Slide 3:\nHEADING: How Computers Use Simple Logic\nCHUNK 1: All computer data relies on binary code (0s and 1s).\nCHUNK 2: Computers use logic gates to interpret and manipulate these values.\nCHUNK 3: These gates perform basic logical operations like AND, OR, and NOT.\nCHUNK 4: This fundamental logic enables all complex computation.']
+
+
+Modify respone lines:
+ ['Slide 1:', 'HEADING: Understanding the Algorithm: The Recipe', 'CHUNK 1: Algorithms are precise, ordered sets of instructions.', 'CHUNK 2: They act as a digital recipe for solving specific problems logically.', 'CHUNK 3: Every task, from sorting data to running apps, requires an algorithm.', 'CHUNK 4: These instructions must be broken down into simple steps.']
+
+ontent pages after append
+[ContentPage(page_no=1, heading='Understanding the Algorithm: The Recipe', chunk1='Algorithms are precise, ordered sets of instructions.', chunk2='They act as a digital recipe for solving specific problems logically.', chunk3='Every task, from sorting data to running apps, requires an algorithm.', chunk4='These instructions must be broken down into simple steps.'), ContentPage(page_no=2, heading='The Central Processing Unit at Work', chunk1='The Central Processing Unit (CPU) is the machine’s primary execution unit.', chunk2='It fetches, decodes, and executes algorithm instructions rapidly.', chunk3='This instruction cycle operates millions of times every second.', chunk4='This process ensures every instruction is followed exactly.'), ContentPage(page_no=3, heading='How Computers Use Simple Logic', chunk1='All computer data relies on binary code (0s and 1s).', chunk2='Computers use logic gates to interpret and manipulate these values.', chunk3='These gates perform basic logical operations like AND, OR, and NOT.', chunk4='This fundamental logic enables all complex computation.')]
